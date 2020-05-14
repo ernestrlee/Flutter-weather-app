@@ -1,9 +1,7 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
 
+# Clima Weather app
 
-# Clima ☁
-
-## Our Goal
+The Clima weather app is a project build from a lesson from App Brewery's Complete Flutter Development Bootcamp.  It uses geolocation services and a weather API to get information about the weather in different locations.
 
 The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
 
@@ -14,7 +12,7 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/clima-demo.gif)
 
-## What you will learn
+## Lessons learned
 
 - How to use Dart to perform asynchronous tasks.
 - Understand async and await.
@@ -30,5 +28,3 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
