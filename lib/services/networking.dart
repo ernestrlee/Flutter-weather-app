@@ -18,7 +18,7 @@ class NetworkHelper {
       return decodedData;
     }
       else {
-      print(response.statusCode);
+      print('error in connection: ${response.statusCode}');
     }
   }
 }
