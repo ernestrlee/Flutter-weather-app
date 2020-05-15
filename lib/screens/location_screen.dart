@@ -4,7 +4,6 @@ import 'package:clima/services/weather.dart';
 import 'package:clima/screens/city_screen.dart';
 
 class LocationScreen extends StatefulWidget {
-
   final locationWeather;
 
   LocationScreen({this.locationWeather});
@@ -19,7 +18,6 @@ class _LocationScreenState extends State<LocationScreen> {
   String weatherIcon;
   String cityName;
   String weatherMessage;
-
 
   @override
   void initState() {
@@ -79,10 +77,14 @@ class _LocationScreenState extends State<LocationScreen> {
                   ),
                   FlatButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(
-                        builder: (context) {
-                          return CityScreen();
-                        }));
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return CityScreen();
+                          },
+                        ),
+                      );
                     },
                     child: Icon(
                       Icons.location_city,
